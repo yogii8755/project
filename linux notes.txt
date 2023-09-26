@@ -1,0 +1,34 @@
+config :
+--------
+
+git config --global user.name "yogii8755"
+git config --global user.email "yogii8755@gmail.com"
+git config --global core.editor vim
+git config --global core.compression 2
+git config --global diff.tool vim.diff
+To list : git config -l
+
+=========================================================================================
+
+linux command:
+--------------
+
+
+1.  df -h ------> this pc
+
+2.  lsblk ------->disk management
+
+3.  sudo -i ------>switch root user
+
+4.  mkfs -t ext4/dev/xvdf ----->to initizate the volume
+
+5.  mkdir  ----->to make new directory
+
+6.  mkdir /greens  ------>to create root volume(/ is used for root purpose)
+            (root vol name)
+
+7.  mount /dev/xvdf/greens/ ------> to allocate the volume(xvdf-device name,greens-root volume name)
+
+8.  resize2fs /dev/xvdg -------->extend the volume (xvdg-device name)
+
+               
